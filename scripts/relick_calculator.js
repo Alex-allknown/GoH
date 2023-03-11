@@ -42,6 +42,7 @@ relick_results(sum)
 function relick_results(sum){
   const resultContainer = document.getElementById("relic-parts");
   resultContainer.innerHTML = "";
+  document.getElementById("relic-parts").style.display = "flex";
   
   for (const material in sum) {
     const materialContainer = document.createElement("div");

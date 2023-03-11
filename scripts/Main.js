@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
   button8.addEventListener('click', function() {
   button8Clicked();
 });
-  button8.innerText = 'Get Result';
+button8.innerText = 'Get Result';
+
   for (let button of buttons) {
     button.addEventListener("click", function () {
       if (button.getAttribute("data-selected") === "true") {
@@ -16,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
           b.style.transform = "";
           b.setAttribute("data-selected", "false");
         });
-        const imagesContainers = document.querySelectorAll(".images-container-1, .images-container-2");
+        const imagesContainers = document.querySelectorAll(".images-container-1");
         for (const container of imagesContainers) {
           while (container.firstChild) {
             container.removeChild(container.firstChild);
@@ -29,12 +30,15 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         const buttonsContainer = document.querySelector('div[style*="height"]');
         buttonsContainer.appendChild(button8);
+        
       } else {
         buttons.forEach(function (b) {
           if (b !== button) {
             b.style.display = "none";
           }
         });
+        const relicPartsElement = document.getElementById("relic-parts");
+        relicPartsElement.style.display = "none";
 
         if (button.classList.contains("button1")) {
           import('./button-1-images.js').then(module => {
@@ -63,6 +67,10 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   function areAllButtonsVisible() {
     const visibleButtons = document.querySelectorAll(".button1:not([style*='none']), .button2:not([style*='none']), .button3:not([style*='none']), .button4:not([style*='none']), .button5:not([style*='none']), .button6:not([style*='none']), .button7:not([style*='none'])");
-    return visibleButtons.length === 7;
+    if (visibleButtons.length === 7) {
+      document.getElementById("relic-parts").style.display = "none";
+      return true;
+    }
   }
+  
 });

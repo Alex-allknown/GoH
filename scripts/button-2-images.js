@@ -36,10 +36,10 @@ export function button2Clicked() {
 
     ];
   
-    const imagesContainer2 = document.querySelector(".images-container-1");
+    const imagesContainer1 = document.querySelector(".images-container-1");
     for (const selectedImage of selectedImages) {
-      const dropdownContainer2 = createDropdown(selectedImage.src, selectedImage.options);
-      imagesContainer2.appendChild(dropdownContainer2);
+      const dropdownContainer1 = createDropdown(selectedImage.src, selectedImage.options);
+      imagesContainer1.appendChild(dropdownContainer1);
     }
   }
   
