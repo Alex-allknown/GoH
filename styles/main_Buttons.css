@@ -1,0 +1,58 @@
+button {
+  margin: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-indent: -9999px;
+}
+.button8 {
+  position: relative; 
+  transform: translateX(-50%);
+  margin: 10px;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(17, 13, 241);
+  cursor: pointer;
+}
+
+.button1:hover, .button3:hover, .button5:hover {
+  box-shadow: 0 0 30px #2b09c4 ;
+}
+
+.button2:hover, .button4:hover, .button6:hover, .button7:hover, .button8:hover {
+  box-shadow: 0 0 30px #c50808 ;
+}
+
+.button1 {
+  background-image: url('../images/Rey.png');
+}
+
+.button2 {
+  background-image: url('../images/Kylo.png');
+}
+
+.button3 {
+  background-image: url('../images/Luke.png');
+}
+
+.button4 {
+  background-image: url('../images/Palpatine.png');
+}
+
+.button5 {
+  background-image: url('../images/Obiwan.png');
+}
+
+.button6 {
+  background-image: url('../images/Lord\ Vader.png');
+}
+
+.button7 {
+  background-image: url('../images/Jabba\ Hutt.png');
+}

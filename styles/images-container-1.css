@@ -1,0 +1,26 @@
+.images-container-1 {
+  position: absolute;
+  left: 65;
+  top: 30%;
+  transform: translateY(-10%);
+}
+.dropdown-container {
+  display: inline-block;
+  margin-right: 20px;
+}
+.selected-image {
+  position: relative;
+  left: 52;
+  top: -5;
+}
+
+select {
+  position: absolute;
+  top: 100%;
+}
+.selected-image {
+  background-size: cover;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
