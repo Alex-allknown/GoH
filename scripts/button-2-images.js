@@ -36,7 +36,7 @@ export function button2Clicked() {
 
     ];
   
-    const imagesContainer2 = document.querySelector(".images-container-2");
+    const imagesContainer2 = document.querySelector(".images-container-1");
     for (const selectedImage of selectedImages) {
       const dropdownContainer2 = createDropdown(selectedImage.src, selectedImage.options);
       imagesContainer2.appendChild(dropdownContainer2);
