@@ -68,6 +68,11 @@ button10.innerText = 'Full All';
             module.button2Clicked(button);
           });
         }
+        if (button.classList.contains("button3")) {
+          import('./button-3-images.js').then(module => {
+            module.button3Clicked(button);
+          });
+        }
         button.style.position = "relative";
         button.style.top = "-28%";
         button.style.left = "29%";
