@@ -41,4 +41,3 @@ export function button1Clicked() {
       imagesContainer1.appendChild(dropdownContainer1);
     }
   }
-  

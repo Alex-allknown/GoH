@@ -1,10 +1,22 @@
 document.addEventListener("DOMContentLoaded", function() {
   const buttons = document.querySelectorAll(".button1, .button2, .button3, .button4, .button5, .button6, .button7");
+  const button9 = document.querySelector('.button9');
   const button8 = document.querySelector('.button8');
-  button8.addEventListener('click', function() {
-  button8Clicked();
+  const button10 = document.querySelector('.button10');
+
+  button9.addEventListener('click', function() {
+  button9Clicked(button9);
 });
+  button8.addEventListener('click', function() {
+  button8Clicked(button8);
+});
+  button10.addEventListener('click', function() {
+  button10Clicked(button10);
+});
+
+button9.innerText = 'Clear All';
 button8.innerText = 'Get Result';
+button10.innerText = 'Full All';
 
   for (let button of buttons) {
     button.addEventListener("click", function () {
@@ -24,13 +36,19 @@ button8.innerText = 'Get Result';
           }
         }
         if (areAllButtonsVisible()) {
+          button9.style.display = 'none';
           button8.style.display = 'none';
+          button10.style.display = 'none';
         } else {
+          button9.style.display = 'inline-block';
           button8.style.display = 'inline-block';
+          button10.style.display = 'inline-block';
         }
         const buttonsContainer = document.querySelector('div[style*="height"]');
+        buttonsContainer.appendChild(button9);
         buttonsContainer.appendChild(button8);
-        
+        buttonsContainer.appendChild(button10);
+
       } else {
         buttons.forEach(function (b) {
           if (b !== button) {
@@ -51,17 +69,19 @@ button8.innerText = 'Get Result';
           });
         }
         button.style.position = "relative";
-        button.style.top = "-180";
-        button.style.left = 120;
+        button.style.top = "-28%";
+        button.style.left = "29%";
         button.style.transform = "translate(-50%, -50%)";
         button.setAttribute("data-selected", "true");
         if (areAllButtonsVisible()) {
+          button9.style.display = 'none';
           button8.style.display = 'none';
+          button10.style.display = 'none';
         } else {
+          button9.style.display = 'inline-block';
           button8.style.display = 'inline-block';
+          button10.style.display = 'inline-block';
         }
-        const buttonsContainer = document.querySelector('div[style*="height"]');
-        buttonsContainer.appendChild(button8);
       }
     });
   }

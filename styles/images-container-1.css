@@ -1,26 +1,17 @@
-.images-container-1, .images-container-2{
-  position: absolute;
-  left: 65;
-  top: 30%;
-  transform: translateY(-10%);
-}
 .dropdown-container {
-  display: inline-block;
-  margin-right: 20px;
-}
-.selected-image {
   position: relative;
-  left: 52;
-  top: -5;
+  display: inline-block;
+  left: 4vw;
+  top: -32vw;
 }
 
-select {
-  position: absolute;
-  top: 100%;
-}
 .selected-image {
+  position: relative;
+  left: 3.2rem;
+  top: -1.5rem;
   background-size: cover;
   border-radius: 50%;
-  width: 75px;
-  height: 75px;
+  width: 5vw;
+  height: 5vw;
 }
+
