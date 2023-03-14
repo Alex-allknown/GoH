@@ -86,3 +86,32 @@ button {
 .button2:hover, .button4:hover, .button6:hover, .button7:hover, .button8:hover {
   box-shadow: 0 0 30px #c50808 ;
 }
+
+
+.button1 {
+  background-image: url('../images/Rey/Rey.png');
+}
+
+.button2 {
+  background-image: url('../images/Kylo/Kylo.png');
+}
+
+.button3 {
+  background-image: url('../images/Luke/Luke.png');
+}
+
+.button4 {
+  background-image: url('../images/Palpatine/Palpatine.png');
+}
+
+.button5 {
+  background-image: url('../images/Obiwan/Obiwan.png');
+}
+
+.button6 {
+  background-image: url('../images/Vader/Lord\ Vader.png');
+}
+
+.button7 {
+  background-image: url('../images/Jabba/Jabba\ Hutt.png');
+}
