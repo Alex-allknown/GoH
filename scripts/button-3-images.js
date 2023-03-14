@@ -21,20 +21,20 @@ export function button3Clicked() {
     }
   
     const selectedImages = [
-      { src: "images/Old Ben.png", options: [5, 4 ,3 ,2, 1, 0] },
-      { src: "images/Rey Jedi.png", options: [7, 6, 5, 4 ,3 ,2, 1, 0] },
-      { src: "images/c3p0.png", options: [5, 4, 3, 2, 1, 0] },
-      { src: "images/Mon Motma.png", options: [5, 4 ,3 ,2, 1, 0] },
-      { src: "images/Chewbacca_c3po.png", options: [5, 4, 3, 2, 1, 0] },
-      { src: "images/Luke jediknight.png", options: [7, 6, 5, 4, 3, 2, 1, 0] },
-      { src: "images/r2d2.png", options: [7, 6, 5, 4, 3, 2, 1, 0] },
-      { src: "images/Han Solo.png", options: [6, 5, 4, 3, 2, 1, 0] },
-      { src: "images/Chuwi.png", options: [6, 5, 4, 3, 2, 1, 0] },
-      { src: "images/leia princess.png", options: [3, 2, 1, 0] },
-      { src: "images/Hermit.png", options: [5, 4 ,3 ,2, 1, 0] },
-      { src: "images/Wedge.png", options: [3, 2, 1, 0] },
-      { src: "images/Biggs.png", options: [3, 2, 1, 0] },
-      { src: "images/Lando.png", options: [5, 4, 3, 2, 1, 0] }
+      { src: "images/Luke/Old Ben.png", options: [5, 4 ,3 ,2, 1, 0] },
+      { src: "images/Luke/Rey Jedi.png", options: [7, 6, 5, 4 ,3 ,2, 1, 0] },
+      { src: "images/Luke/c3p0.png", options: [5, 4, 3, 2, 1, 0] },
+      { src: "images/Luke/Mon Motma.png", options: [5, 4 ,3 ,2, 1, 0] },
+      { src: "images/Luke/Chewbacca_c3po.png", options: [5, 4, 3, 2, 1, 0] },
+      { src: "images/Luke/Luke jediknight.png", options: [7, 6, 5, 4, 3, 2, 1, 0] },
+      { src: "images/Luke/r2d2.png", options: [7, 6, 5, 4, 3, 2, 1, 0] },
+      { src: "images/Luke/Han Solo.png", options: [6, 5, 4, 3, 2, 1, 0] },
+      { src: "images/Luke/Chuwi.png", options: [6, 5, 4, 3, 2, 1, 0] },
+      { src: "images/Luke/leia princess.png", options: [3, 2, 1, 0] },
+      { src: "images/Luke/Hermit.png", options: [5, 4 ,3 ,2, 1, 0] },
+      { src: "images/Luke/Wedge.png", options: [3, 2, 1, 0] },
+      { src: "images/Luke/Biggs.png", options: [3, 2, 1, 0] },
+      { src: "images/Luke/Lando.png", options: [5, 4, 3, 2, 1, 0] }
 
     ];
   

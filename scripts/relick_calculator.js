@@ -47,18 +47,18 @@ function relick_results(sum){
   for (const material in sum) {
     const materialContainer = document.createElement("div");
     const materialImages = {
-      H1: 'images/Gear-Carbonite_Circuit_Board.png',
-      H2: 'images/Gear-Bronzium_Wiring.png',
-      H3: 'images/Gear-Chromium_Transistor.png',
-      H4: 'images/Gear-Aurodium_Heatsink.png',
-      H5: 'images/Gear-Electrium_Conductor.png',
-      H6: 'images/Game-Icon-Zinbiddle_Card.png',
-      H7: 'images/Game-Icon-Impulse_Detector.png',
-      H8: 'images/Game-Icon-Gyrda_Keypad.png',
-      H9: 'images/Game-Icon-Droid_Brain.png',
-      C1: 'images/tex.scavenger_data01.png',
-      C2: 'images/tex.scavenger_data02.png',
-      C3: 'images/tex.scavenger_data03.png',
+      H1: 'images/Relick/Gear-Carbonite_Circuit_Board.png',
+      H2: 'images/Relick/Gear-Bronzium_Wiring.png',
+      H3: 'images/Relick/Gear-Chromium_Transistor.png',
+      H4: 'images/Relick/Gear-Aurodium_Heatsink.png',
+      H5: 'images/Relick/Gear-Electrium_Conductor.png',
+      H6: 'images/Relick/Game-Icon-Zinbiddle_Card.png',
+      H7: 'images/Relick/Game-Icon-Impulse_Detector.png',
+      H8: 'images/Relick/Game-Icon-Gyrda_Keypad.png',
+      H9: 'images/Relick/Game-Icon-Droid_Brain.png',
+      C1: 'images/Relick/tex.scavenger_data01.png',
+      C2: 'images/Relick/tex.scavenger_data02.png',
+      C3: 'images/Relick/tex.scavenger_data03.png',
     };
     
     const materialImage = document.createElement("img");

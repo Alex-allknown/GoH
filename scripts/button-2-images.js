@@ -21,18 +21,18 @@ export function button2Clicked() {
     }
   
     const selectedImages = [
-      { src: "images/Kylo unmasked.png", options: [7, 6, 5, 4 ,3 ,2, 1, 0] },
-      { src: "images/FTrooper.png", options: [5, 4, 3, 2, 1, 0] },
-      { src: "images/Officer.png", options: [5, 4, 3, 2, 1, 0] },
-      { src: "images/Kyloren.png", options: [7, 6, 5, 4 ,3 ,2, 1, 0] },
-      { src: "images/Phasma.png", options: [5, 4, 3, 2, 1, 0] },
-      { src: "images/Executioner.png", options: [5, 4, 3, 2, 1, 0] },
-      { src: "images/Han.png", options: [3, 2, 1, 0] },
-      { src: "images/Sithtrooper.png", options: [5, 4, 3, 2, 1, 0] },
-      { src: "images/SF Tie pilot.png", options: [3, 2, 1, 0] },
-      { src: "images/Hux.png", options: [5, 4, 3, 2, 1, 0] },
-      { src: "images/Tie pilot.png", options: [3, 2, 1, 0] },
-      { src: "images/Palpatineemperor.png", options: [7, 6, 5, 4 ,3 ,2 , 1, 0] },
+      { src: "images/Kylo/Kylo unmasked.png", options: [7, 6, 5, 4 ,3 ,2, 1, 0] },
+      { src: "images/Kylo/FTrooper.png", options: [5, 4, 3, 2, 1, 0] },
+      { src: "images/Kylo/Officer.png", options: [5, 4, 3, 2, 1, 0] },
+      { src: "images/Kylo/Kyloren.png", options: [7, 6, 5, 4 ,3 ,2, 1, 0] },
+      { src: "images/Kylo/Phasma.png", options: [5, 4, 3, 2, 1, 0] },
+      { src: "images/Kylo/Executioner.png", options: [5, 4, 3, 2, 1, 0] },
+      { src: "images/Kylo/Han.png", options: [3, 2, 1, 0] },
+      { src: "images/Kylo/Sithtrooper.png", options: [5, 4, 3, 2, 1, 0] },
+      { src: "images/Kylo/SF Tie pilot.png", options: [3, 2, 1, 0] },
+      { src: "images/Kylo/Hux.png", options: [5, 4, 3, 2, 1, 0] },
+      { src: "images/Kylo/Tie pilot.png", options: [3, 2, 1, 0] },
+      { src: "images/Kylo/Palpatineemperor.png", options: [7, 6, 5, 4 ,3 ,2 , 1, 0] },
 
     ];
   
