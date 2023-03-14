@@ -9,10 +9,13 @@ function restoreMaxValues() {
 
   for (const dropdownContainer of dropdownContainers) {
     const select = dropdownContainer.querySelector('select');
-    const options = select.querySelectorAll('option');
-    let maxOptionValue = Math.max(...Array.from(options, (option) => Number(option.value)));
-    select.value = maxOptionValue;
+    if (select) {
+      const options = select.querySelectorAll('option');
+      let maxOptionValue = Math.max(...Array.from(options, (option) => Number(option.value)));
+      select.value = maxOptionValue;
+    }
   }
+  
 }
 
 function button9Clicked() {

@@ -4,19 +4,21 @@ document.addEventListener("DOMContentLoaded", function() {
   const button8 = document.querySelector('.button8');
   const button10 = document.querySelector('.button10');
 
+  button9.innerText = 'Clear All';
+  button9.style.left = "30%";
   button9.addEventListener('click', function() {
   button9Clicked(button9);
 });
+  button8.innerText = 'Get Result';
+  button8.style.left = "50%";
   button8.addEventListener('click', function() {
   button8Clicked(button8);
 });
+  button10.innerText = 'Full All';
+  button10.style.left = "70%";
   button10.addEventListener('click', function() {
   button10Clicked(button10);
 });
-
-button9.innerText = 'Clear All';
-button8.innerText = 'Get Result';
-button10.innerText = 'Full All';
 
   for (let button of buttons) {
     button.addEventListener("click", function () {
@@ -55,8 +57,6 @@ button10.innerText = 'Full All';
             b.style.display = "none";
           }
         });
-        const relicPartsElement = document.getElementById("relic-parts");
-        relicPartsElement.style.display = "none";
 
         if (button.classList.contains("button1")) {
           import('./button-1-images.js').then(module => {
@@ -74,9 +74,7 @@ button10.innerText = 'Full All';
           });
         }
         button.style.position = "relative";
-        button.style.top = "-28%";
-        button.style.left = "29%";
-        button.style.transform = "translate(-50%, -50%)";
+        button.style.transform = "translate(20%,-220%)";
         button.setAttribute("data-selected", "true");
         if (areAllButtonsVisible()) {
           button9.style.display = 'none';
