@@ -19,22 +19,22 @@ export function button3Clicked() {
       container.appendChild(select);
       return container;
     }
-  
+    
     const selectedImages = [
-      { src: "images/Luke/Old Ben.png", options: [5, 4 ,3 ,2, 1, 0] },
-      { src: "images/Luke/Rey Jedi.png", options: [7, 6, 5, 4 ,3 ,2, 1, 0] },
-      { src: "images/Luke/c3p0.png", options: [5, 4, 3, 2, 1, 0] },
-      { src: "images/Luke/Mon Motma.png", options: [5, 4 ,3 ,2, 1, 0] },
-      { src: "images/Luke/Chewbacca_c3po.png", options: [5, 4, 3, 2, 1, 0] },
-      { src: "images/Luke/Luke jediknight.png", options: [7, 6, 5, 4, 3, 2, 1, 0] },
-      { src: "images/Luke/r2d2.png", options: [7, 6, 5, 4, 3, 2, 1, 0] },
-      { src: "images/Luke/Han Solo.png", options: [6, 5, 4, 3, 2, 1, 0] },
-      { src: "images/Luke/Chuwi.png", options: [6, 5, 4, 3, 2, 1, 0] },
-      { src: "images/Luke/leia princess.png", options: [3, 2, 1, 0] },
-      { src: "images/Luke/Hermit.png", options: [5, 4 ,3 ,2, 1, 0] },
-      { src: "images/Luke/Wedge.png", options: [3, 2, 1, 0] },
-      { src: "images/Luke/Biggs.png", options: [3, 2, 1, 0] },
-      { src: "images/Luke/Lando.png", options: [5, 4, 3, 2, 1, 0] }
+      { src: "images/Luke/Old Ben.png", options: [0, 1, 2, 3, 4, 5] },
+      { src: "images/Luke/Rey Jedi.png", options: [0, 1, 2, 3, 4, 5, 6, 7] },
+      { src: "images/Luke/c3p0.png", options: [0, 1, 2, 3, 4, 5] },
+      { src: "images/Luke/Mon Motma.png", options: [0, 1, 2, 3, 4, 5] },
+      { src: "images/Luke/Chewbacca_c3po.png", options: [0, 1, 2, 3, 4, 5] },
+      { src: "images/Luke/Luke jediknight.png", options: [0, 1, 2, 3, 4, 5, 6, 7] },
+      { src: "images/Luke/r2d2.png", options: [0, 1, 2, 3, 4, 5, 6, 7] },
+      { src: "images/Luke/Han Solo.png", options: [0, 1, 2, 3, 4, 5, 6] },
+      { src: "images/Luke/Chuwi.png", options: [0, 1, 2, 3, 4, 5, 6] },
+      { src: "images/Luke/leia princess.png", options: [0, 1, 2, 3] },
+      { src: "images/Luke/Hermit.png", options: [0, 1, 2, 3, 4, 5] },
+      { src: "images/Luke/Wedge.png", options: [0, 1, 2, 3] },
+      { src: "images/Luke/Biggs.png", options: [0, 1, 2, 3] },
+      { src: "images/Luke/Lando.png", options: [0, 1, 2, 3, 4, 5] }
 
     ];
   

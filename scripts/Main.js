@@ -73,6 +73,28 @@ document.addEventListener("DOMContentLoaded", function() {
             module.button3Clicked(button);
           });
         }
+        if (button.classList.contains("button4")) {
+          import('./button-4-images.js').then(module => {
+            module.button4Clicked(button);
+          });
+        }
+        if (button.classList.contains("button5")) {
+          import('./button-5-images.js').then(module => {
+            module.button5Clicked(button);
+          });
+        }
+        if (button.classList.contains("button6")) {
+          import('./button-6-images.js').then(module => {
+            module.button6Clicked(button);
+          });
+        }
+        if (button.classList.contains("button7")) {
+          import('./button-7-images.js').then(module => {
+            module.button7Clicked(button);
+          });
+        }
+
+
         button.style.position = "relative";
         button.style.transform = "translate(20%,-220%)";
         button.setAttribute("data-selected", "true");

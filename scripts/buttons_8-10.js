@@ -11,7 +11,7 @@ function restoreMaxValues() {
     const select = dropdownContainer.querySelector('select');
     if (select) {
       const options = select.querySelectorAll('option');
-      let maxOptionValue = Math.max(...Array.from(options, (option) => Number(option.value)));
+      let maxOptionValue = Math.min(...Array.from(options, (option) => Number(option.value)));
       select.value = maxOptionValue;
     }
   }
@@ -20,7 +20,6 @@ function restoreMaxValues() {
 
 function button9Clicked() {
   clearSum();
-  relick_results({ H1: 0, H2: 0, H3: 0, H4: 0, H5: 0, H6: 0, H7: 0, H8: 0, H9: 0, C1: 0, C2: 0, C3: 0});
   restoreMaxValues();
 }
 
