@@ -1,18 +1,18 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const buttons = document.querySelectorAll(".button1, .button2, .button3, .button4, .button5, .button6, .button7");
-  const button9 = document.querySelector('.button9');
-  const button8 = document.querySelector('.button8');
-  const button10 = document.querySelector('.button10');
+  const buttons = document.querySelectorAll(".Rey, .Kylo, .Luke, .Palpatine, .Obiwan, .Vader, .Jabba");
+  const button8 = document.querySelector('.GetResult');
+  const button9 = document.querySelector('.ClearAll');
+  const button10 = document.querySelector('.FullAll');
 
-  button9.innerText = 'Clear All';
-  button9.style.left = "30%";
-  button9.addEventListener('click', function() {
-  button9Clicked(button9);
-});
   button8.innerText = 'Get Result';
   button8.style.left = "50%";
   button8.addEventListener('click', function() {
   button8Clicked(button8);
+});
+  button9.innerText = 'Clear All';
+  button9.style.left = "30%";
+  button9.addEventListener('click', function() {
+  button9Clicked(button9);
 });
   button10.innerText = 'Full All';
   button10.style.left = "70%";
@@ -38,17 +38,17 @@ document.addEventListener("DOMContentLoaded", function() {
           }
         }
         if (areAllButtonsVisible()) {
-          button9.style.display = 'none';
           button8.style.display = 'none';
+          button9.style.display = 'none';
           button10.style.display = 'none';
         } else {
-          button9.style.display = 'inline-block';
           button8.style.display = 'inline-block';
+          button9.style.display = 'inline-block';
           button10.style.display = 'inline-block';
         }
         const buttonsContainer = document.querySelector('div[style*="height"]');
-        buttonsContainer.appendChild(button9);
         buttonsContainer.appendChild(button8);
+        buttonsContainer.appendChild(button9);
         buttonsContainer.appendChild(button10);
 
       } else {
@@ -58,37 +58,37 @@ document.addEventListener("DOMContentLoaded", function() {
           }
         });
 
-        if (button.classList.contains("button1")) {
+        if (button.classList.contains("Rey")) {
           import('./button-1-images.js').then(module => {
             module.button1Clicked(button);
           });
         }  
-        if (button.classList.contains("button2")) {
+        if (button.classList.contains("Kylo")) {
           import('./button-2-images.js').then(module => {
             module.button2Clicked(button);
           });
         }
-        if (button.classList.contains("button3")) {
+        if (button.classList.contains("Luke")) {
           import('./button-3-images.js').then(module => {
             module.button3Clicked(button);
           });
         }
-        if (button.classList.contains("button4")) {
+        if (button.classList.contains("Palpatine")) {
           import('./button-4-images.js').then(module => {
             module.button4Clicked(button);
           });
         }
-        if (button.classList.contains("button5")) {
+        if (button.classList.contains("Obiwan")) {
           import('./button-5-images.js').then(module => {
             module.button5Clicked(button);
           });
         }
-        if (button.classList.contains("button6")) {
+        if (button.classList.contains("Vader")) {
           import('./button-6-images.js').then(module => {
             module.button6Clicked(button);
           });
         }
-        if (button.classList.contains("button7")) {
+        if (button.classList.contains("Jabba")) {
           import('./button-7-images.js').then(module => {
             module.button7Clicked(button);
           });
@@ -99,19 +99,19 @@ document.addEventListener("DOMContentLoaded", function() {
         button.style.transform = "translate(20%,-220%)";
         button.setAttribute("data-selected", "true");
         if (areAllButtonsVisible()) {
-          button9.style.display = 'none';
           button8.style.display = 'none';
+          button9.style.display = 'none';
           button10.style.display = 'none';
         } else {
-          button9.style.display = 'inline-block';
           button8.style.display = 'inline-block';
+          button9.style.display = 'inline-block';
           button10.style.display = 'inline-block';
         }
       }
     });
   }
   function areAllButtonsVisible() {
-    const visibleButtons = document.querySelectorAll(".button1:not([style*='none']), .button2:not([style*='none']), .button3:not([style*='none']), .button4:not([style*='none']), .button5:not([style*='none']), .button6:not([style*='none']), .button7:not([style*='none'])");
+    const visibleButtons = document.querySelectorAll(".Rey:not([style*='none']), .Kylo:not([style*='none']), .Luke:not([style*='none']), .Palpatine:not([style*='none']), .Obiwan:not([style*='none']), .Vader:not([style*='none']), .Jabba:not([style*='none'])");
     if (visibleButtons.length === 7) {
       document.getElementById("relic-parts").style.display = "none";
       return true;

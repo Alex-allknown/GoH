@@ -31,7 +31,7 @@ button {
   justify-content: center;
 }
 
-.button8, .button9, .button10 {
+.GetResult, .ClearAll, .FullAll {
   position: absolute; 
   transform: translateX(-50%);
   bottom: 10vh;
@@ -79,39 +79,38 @@ button {
   font-weight: bold;
 }
 
-.button1:hover, .button3:hover, .button5:hover, .button9:hover, .button10:hover {
+.Rey:hover, .Luke:hover, .Obiwan:hover, .ClearAll:hover, .FullAll:hover {
   box-shadow: 0 0 30px #2b09c4 ;
 }
 
-.button2:hover, .button4:hover, .button6:hover, .button7:hover, .button8:hover {
+.Kylo:hover, .Palpatine:hover, .Vader:hover, .Jabba:hover, .GetResult:hover {
   box-shadow: 0 0 30px #c50808 ;
 }
 
-
-.button1 {
+.Rey {
   background-image: url('../images/Rey/Rey.png');
 }
 
-.button2 {
+.Kylo {
   background-image: url('../images/Kylo/Kylo.png');
 }
 
-.button3 {
+.Luke {
   background-image: url('../images/Luke/Luke.png');
 }
 
-.button4 {
+.Palpatine {
   background-image: url('../images/Palpatine/Palpatine.png');
 }
 
-.button5 {
+.Obiwan {
   background-image: url('../images/Obiwan/Obiwan.png');
 }
 
-.button6 {
+.Vader {
   background-image: url('../images/Vader/Lord\ Vader.png');
 }
 
-.button7 {
+.Jabba {
   background-image: url('../images/Jabba/Jabba\ Hutt.png');
 }
